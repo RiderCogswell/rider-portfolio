@@ -45,17 +45,18 @@ const ContactForm = () => {
     return(
         <section>
             <h1 data-testid="h1tag">Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" className="mid" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Name: </label>
                     <input type="text" name="name" onBlur={handleChange} defaultValue={name} />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
+                    <label htmlFor="email">Email:</label>
                     <input type="email" name="email" onBlur={handleChange} defaultValue={email}/>
                 </div>
                 <div>
-                    <label htmlFor="name">Message:</label>
+                    <label htmlFor="name">Message: </label>
+                    <br />
                     <textarea name="message" onBlur={handleChange} defaultValue={message} rows="5" />
                     {/* this is a short circuit, where if the first value is true, the second expression is evaluated */}
                     {errorMessage && (

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rider-portfolio/static/css/main.dcedc771.css",
+    "main.js": "/rider-portfolio/static/js/main.7dff59d8.js",
+    "static/js/787.faaec9bd.chunk.js": "/rider-portfolio/static/js/787.faaec9bd.chunk.js",
+    "index.html": "/rider-portfolio/index.html",
+    "main.dcedc771.css.map": "/rider-portfolio/static/css/main.dcedc771.css.map",
+    "main.7dff59d8.js.map": "/rider-portfolio/static/js/main.7dff59d8.js.map",
+    "787.faaec9bd.chunk.js.map": "/rider-portfolio/static/js/787.faaec9bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcedc771.css",
+    "static/js/main.7dff59d8.js"
+  ]
+}

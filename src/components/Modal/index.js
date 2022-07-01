@@ -8,7 +8,7 @@ const Modal = ({ onClose, currentProject }) => {
             <div className="modalContainer">
                 <h3 className="modalTitle">{title}</h3>
                 <a href={link} target="project">
-                  <img src={(`/assets/${title}/.png`)} alt="current project"/>
+                  <img src={(`/assets/${title}.png`)} alt="current project"/>
                 </a>
                 <p>
                   {description}

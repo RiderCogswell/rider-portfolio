@@ -10,7 +10,7 @@ const ProjectList = ({ title }) => {
             title: 'due',
             technologies: 'React, GraohQL, Mongoose, MongoDB, Express.js, Node.js',
             description: 'Modern application to help everyone track their finances with a Non-Relational databsase and smart design.',
-            image: 'loople.png',
+            image: 'due.png',
             link: 'https://due-ucd.herokuapp.com/'
         },
         {
@@ -68,13 +68,19 @@ const ProjectList = ({ title }) => {
             )}
             <div className='flex-row'>
                 {projects.map((project, i) => (
-                    <img 
-                        src={require(`../../assets/${project.image}`)}
-                        alt={project.title}
-                        className='img-thumbnail mx-1'
-                        onClick={() => toggleModal(project, i)}
-                        key={project.title}
-                    />
+                    <div className="projects">
+                        <img 
+                            src={require(`../../assets/${project.image}`)}
+                            alt={project.title}
+                            className='img-thumbnail mx-1'
+                            onClick={() => toggleModal(project, i)}
+                            key={project.title}
+                        />
+                        <div class="project-bio">
+                            <h3 className="project-name">{project.title}</h3>
+                            <h4 className="project-bio">{project.technologies}</h4>
+                        </div>
+                    </div>
                 ))}
             </div>
         </div>

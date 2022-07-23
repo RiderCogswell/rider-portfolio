@@ -76,7 +76,7 @@ const ProjectList = ({ title }) => {
                             onClick={() => toggleModal(project, i)}
                             key={project.title}
                         />
-                        <div class="project-bio">
+                        <div className="project-bio">
                             <h3 className="project-name">{project.title}</h3>
                             <h4 className="project-bio">{project.technologies}</h4>
                         </div>

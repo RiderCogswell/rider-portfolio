@@ -48,8 +48,6 @@ const Nav = (props) => {
                           {capitalizeFirstLetter(piece.title)}
                       </span>
                   </li>
-
-                  
               ))}
           </ul>
       </nav>
